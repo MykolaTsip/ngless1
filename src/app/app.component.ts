@@ -2,9 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template:
+    '<app-user [name]=""аоаооаао""></app-user>' +
+    '<app-user></app-user>' +
+    '<app-user></app-user>' ,
+  styles: ['']
 })
 export class AppComponent {
-  title = 'ngless1';
+
 }
